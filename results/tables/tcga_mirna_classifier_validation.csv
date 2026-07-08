@@ -1,0 +1,4 @@
+approach,n_tcga_normal,n_tcga_tumor,n_overlap_mirnas,accuracy,macro_f1,f1_normal,f1_primary,auc_normal,auc_primary,cm_normal_normal,cm_normal_primary,cm_primary_normal,cm_primary_primary,notes
+pretrained_full_model,104,165,82,0.788104,0.737615,0.622517,0.852713,0.989161,0.989161,47,57,0,165,Full multi-modal model; TCGA miRNA via ComBat+log2+z-score; missing mRNA imputed at 0.
+overlap_mirna_retrain,104,165,82,0.773234,0.714512,0.585034,0.843990,0.984674,0.984674,43,61,0,165,Retrained on TCGA-overlapping miRNAs only; same HPs as full model.
+top10_mirna_retrain,104,165,10,0.780669,0.726178,0.604027,0.848329,0.917133,0.917133,45,59,0,165,Top 10 miRNAs by feature_importances_ (TCGA overlap).

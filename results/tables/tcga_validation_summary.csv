@@ -1,0 +1,6 @@
+metric,value
+Gene panel overlap (TCGA/NanoString),231/236
+XGBoost top-20 overlap with TCGA,19/20
+GAT attention mRNA overlap with TCGA,10/5
+GSE45498 DE direction concordance,19/66
+Expression Spearman rho (TCGA vs GSE45498 primary),0.2811

@@ -1,0 +1,38 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+networkx>=3.1
+
+# Machine learning
+xgboost>=2.0
+shap>=0.43
+optuna>=3.5
+
+# Deep learning (PyTorch)
+# For CUDA 12.x: pip install torch --index-url https://download.pytorch.org/whl/cu121
+# For CUDA 11.8: pip install torch --index-url https://download.pytorch.org/whl/cu118
+# For CPU only: pip install torch
+torch>=2.1
+
+# PyTorch Geometric
+# Install after PyTorch; see https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+torch-geometric>=2.4
+torch-scatter
+torch-sparse
+
+# GPU-accelerated NumPy (optional; used by scripts 02 and 03 when CUDA is available)
+# Only install if CUDA toolkit is present:
+#   pip install cupy-cuda12x   # CUDA 12.x
+#   pip install cupy-cuda11x   # CUDA 11.x
+# cupy-cuda12x
+
+# Differential expression (one required; rpy2 preferred)
+# rpy2>=3.5        # requires R + limma + edgeR installed
+pydeseq2>=0.4
+
+# Pathway / GO enrichment (Enrichr API)
+gseapy>=1.1

@@ -1,0 +1,2 @@
+real_macro_f1,permuted_mean_macro_f1,permuted_std_macro_f1,real_minus_permuted_mean,empirical_p_value,real_percentile_rank,n_permutations_outperformed_by_real,n_permutations,real_accuracy
+0.9229946524064172,0.8805986671528672,0.04186711323644021,0.04239598525355004,0.047619047619047616,100.0,20,20,0.9361702127659576

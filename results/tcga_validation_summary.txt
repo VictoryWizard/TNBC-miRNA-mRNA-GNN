@@ -1,0 +1,29 @@
+TCGA-BRCA Validation Summary (GSE45498 vs TCGA)
+========================================================================
+GSE45498 samples:                    235
+GSE endogenous mRNA genes (log2):    236
+DE mRNAs in classifier pipeline:     56
+NanoString reference panel:          236
+GSE expression scale:                log2(x+1) from raw
+
+PAM50 basal (171)
+------------------------------------------------------------------------
+  TCGA samples:                         171
+  Overlapping genes (ComBat):           228
+  DE mRNAs in overlap:                  54/56
+  Pre-ComBat Spearman rho (all overlap): 0.7915 (p=3.15e-50)
+  Post-ComBat Spearman rho (DE only):    0.9996 (p=9.46e-83)
+  Per-sample profile rho median [IQR]:   0.9327 [0.9139, 0.9461]
+
+Clinical TNBC (IHC)
+------------------------------------------------------------------------
+  TCGA samples:                         78
+  Overlapping genes (ComBat):           227
+  DE mRNAs in overlap:                  54/56
+  Pre-ComBat Spearman rho (all overlap): 0.8033 (p=1.51e-52)
+  Post-ComBat Spearman rho (DE only):    0.9999 (p=6.37e-101)
+  Per-sample profile rho median [IQR]:   0.9279 [0.9094, 0.9467]
+
+Cohort note:
+  PAM50 basal = PanCan Subtype BRCA_Basal (molecular proxy, not pure IHC TNBC).
+  Clinical TNBC = ER-/PR-/HER2- by IHC/FISH (brca_tcga clinical, PanCan expression).

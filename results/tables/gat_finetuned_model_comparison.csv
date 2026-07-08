@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,auc_roc_normal,auc_roc_primary,auc_roc_metastatic
+Fine-tuned Multi-network GAT,0.9148936170212766,0.9014939309056956,0.9679487179487181,0.9699248120300752,1.0

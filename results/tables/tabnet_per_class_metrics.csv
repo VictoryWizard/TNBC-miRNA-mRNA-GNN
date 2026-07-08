@@ -1,0 +1,4 @@
+class,f1,auroc_ovr
+normal,0.782609,0.954545
+primary,0.730769,0.874608
+metastatic,0.666667,0.934091

@@ -1,0 +1,4 @@
+model_a,model_b,n_both_correct,n_a_correct_b_wrong,n_a_wrong_b_correct,n_both_wrong,mcnemar_p,test_type,interpretation_note
+XGBoost,Multi-network GAT,43,1,1,2,1.0,exact_binomial,No significant discordance between model correctness
+XGBoost,TabNet,34,10,0,3,0.001953125,exact_binomial,Significant discordance; XGBoost correct more often when models disagree
+Multi-network GAT,TabNet,34,10,0,3,0.001953125,exact_binomial,Significant discordance; Multi-network GAT correct more often when models disagree

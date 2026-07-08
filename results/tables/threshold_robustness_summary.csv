@@ -1,0 +1,15 @@
+metric,value,notes
+analysis_scope,regulatory_pair_construction,Thresholds affect the number of miRNA-mRNA regulatory pairs used for network/GAT construction.
+xgboost_independence,True,"XGBoost classification performance is independent of these thresholds because XGBoost is trained on fixed DE miRNA/mRNA expression features (146 features), not on pair-derived features."
+evaluation_focus,pair_threshold_robustness,"This notebook evaluates threshold robustness for regulatory-pair/network construction, not threshold-dependent XGBoost feature selection."
+default_mirdb_threshold,70,Pipeline default in notebook 02 (score > 70)
+default_correlation_cutoff,0.1,Pipeline default in notebook 02 (|r| > 0.1)
+default_pair_count,13,"Pairs at miRDB>70, |r|>0.1"
+fixed_xgboost_accuracy,0.9361702127659575,From results\tables\xgboost_test_predictions.csv
+fixed_xgboost_macro_f1,0.9249164578111945,Same value for every threshold row
+fixed_xgboost_macro_auroc,0.9768267794583584,Same value for every threshold row
+pair_count_min,0,Most restrictive threshold combination with fewest pairs
+pair_count_max,55,Most permissive threshold combination with most pairs
+pair_counts_sensitive,True,True if max pair count is at least 2x the minimum
+xgboost_performance_stable,True,By design: thresholds do not change XGBoost inputs; accuracy and macro F1 are identical across the grid.
+default_thresholds_defensible,False,"Default yields 13 pairs (24% of permissive-restrictive range). Most permissive: miRDB>50, |r|>0.05 (55 pairs). Most restrictive with pairs: miRDB>50, |r|>0.3 (0 pairs)."

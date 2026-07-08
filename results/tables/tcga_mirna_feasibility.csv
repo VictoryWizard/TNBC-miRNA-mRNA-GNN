@@ -1,0 +1,14 @@
+miRNA,present_in_any_tcga_file,matching_file,matching_column,notes
+hsa-miR-490-3p,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-1979,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-let-7f,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-let-7g,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-130b,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-425,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-421,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-106b,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-200a,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-660,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-10b,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-21,False,,,Not found in inspected TCGA miRNA-like columns
+hsa-miR-26b,False,,,Not found in inspected TCGA miRNA-like columns

@@ -1,0 +1,40 @@
+# Data and trained artifacts
+data/
+models/
+
+# Generated figures
+results/figures/
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Secrets and OS
+.env
+.DS_Store
+
+# Serialized models
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Conda / venv
+.conda/
+*.egg-info/
+
+# Logs
+*.log
+data_processed.zip
+
+# large archives
+*.zip

@@ -1,0 +1,17 @@
+file_path,n_rows,n_columns,appears_to_contain_mirna,example_mirna_like_columns,notes
+data/brca_tcga_pan_can_atlas_2018_clinical_data.tsv,171,63,False,,
+data/processed/de_mirnas.csv,145,4,False,,Filename suggests miRNA content; inspect column semantics manually
+data/processed/enrichr_gmt/TargetScan_microRNA_2017.gmt.txt,683,1,False,,
+data/processed/mirna_mrna_pairs.csv,13,8,False,,Filename suggests miRNA content; inspect column semantics manually
+data/processed/test_mirna.csv,47,91,True,hsa-let-7c; hsa-let-7f; hsa-let-7g; hsa-let-7i; hsa-miR-9; hsa-miR-10b; hsa-miR-15a; hsa-miR-15b; hsa-miR-16 (+++ See note below); hsa-miR-18b,Found 90 miRNA-like column(s)
+data/processed/train_mirna.csv,188,91,True,hsa-let-7c; hsa-let-7f; hsa-let-7g; hsa-let-7i; hsa-miR-9; hsa-miR-10b; hsa-miR-15a; hsa-miR-15b; hsa-miR-16 (+++ See note below); hsa-miR-18b,Found 90 miRNA-like column(s)
+data/tcga_brca_basal_mrna_expression.csv,171,232,False,,TCGA mRNA expression table; columns appear to be gene symbols
+data/tcga_brca_clinical_tnbc_mrna_expression.csv,78,231,False,,TCGA mRNA expression table; columns appear to be gene symbols
+data/tcga_brca_normal_mrna_expression.csv,113,231,False,,TCGA mRNA expression table; columns appear to be gene symbols
+data/tcga_clinical_tnbc_manifest.txt,88,1,False,,
+data/tcga_gene_entrez_map.json,,,False,,Non-tabular file; column inspection skipped
+data/tcga_gene_panel.txt,235,1,False,,
+results/tables/enrichment_mirna_miRTarBase_2017.csv,3240,10,False,,Filename suggests miRNA content; inspect column semantics manually
+results/tables/enrichment_mirna_TargetScan_microRNA_2017.csv,683,10,False,,Filename suggests miRNA content; inspect column semantics manually
+results/tables/tcga_classifier_validation.csv,4,17,False,,
+results/tables/tcga_validation_summary.csv,5,2,False,,

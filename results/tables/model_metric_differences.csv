@@ -1,0 +1,13 @@
+model_a,model_b,bootstrap_type,metric,difference_a_minus_b,ci_lower_95,ci_upper_95,n_resamples,interpretation_note
+XGBoost,Multi-network GAT,sample,accuracy,0.0,-0.06382978723404253,0.06382978723404253,10000,CI includes 0; difference not clearly different from zero
+XGBoost,Multi-network GAT,sample,macro_f1,0.001921805404777377,-0.0638489974002797,0.06929126888230897,10000,CI includes 0; difference not clearly different from zero
+XGBoost,Multi-network GAT,patient_cluster,accuracy,0.0,-0.05882352941176461,0.06666666666666665,10000,CI includes 0; difference not clearly different from zero
+XGBoost,Multi-network GAT,patient_cluster,macro_f1,0.001921805404777377,-0.0645139800039982,0.07143227143227127,10000,CI includes 0; difference not clearly different from zero
+XGBoost,TabNet,sample,accuracy,0.21276595744680848,0.1063829787234043,0.34042553191489355,10000,XGBoost higher than TabNet
+XGBoost,TabNet,sample,macro_f1,0.25807186153348183,0.1321983815404868,0.4062033866690553,10000,XGBoost higher than TabNet
+XGBoost,TabNet,patient_cluster,accuracy,0.21276595744680848,0.11627906976744184,0.3157894736842105,10000,XGBoost higher than TabNet
+XGBoost,TabNet,patient_cluster,macro_f1,0.25807186153348183,0.1435571297188572,0.39608528388125214,10000,XGBoost higher than TabNet
+Multi-network GAT,TabNet,sample,accuracy,0.21276595744680848,0.10638297872340419,0.34042553191489355,10000,Multi-network GAT higher than TabNet
+Multi-network GAT,TabNet,sample,macro_f1,0.25615005612870445,0.13504256725843297,0.3981376508976353,10000,Multi-network GAT higher than TabNet
+Multi-network GAT,TabNet,patient_cluster,accuracy,0.21276595744680848,0.12121212121212122,0.3035714285714285,10000,Multi-network GAT higher than TabNet
+Multi-network GAT,TabNet,patient_cluster,macro_f1,0.25615005612870445,0.14592176343443333,0.38465164700191923,10000,Multi-network GAT higher than TabNet
